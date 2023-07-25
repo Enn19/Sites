@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7ECDE;
+}
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+ }
+ 
+ .title-container{
+    width: 290px;
+    transition: 0.5s;
+ }
+ 
+ .layer{
+    width: 90%;
+    height: 55%;
+    bottom: -37%;   
+    transition: 0.5s;
+    background-color:  #FEC260 ;
+ }
+ 
+ .title-container:hover .layer{
+    transform: translateY(-30%);
+ 
+ }
+
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-bookmark:before {
+    content: "\f02e";
+}
+.bookmark-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+.fa-book-bookmark:before {
+    content: "\e0bb";
+}
+.fa-link:before {
+    content: "\f0c1";
+}
+.btn-submit {
+    color: #fff;
+    background-color: #d1512d;
+    border-color: #d1512d;
+}
+.btn-submit:hover{
+    color: #fff;
+    background-color: #bb4120;
+    border-color: #a03315;
+}
+.btn-delete {
+    color: #fff;
+    background-color: #eb1d36;
+    border-color: #eb1d36;
+}
+.btn-delete:hover{
+    color: #fff;
+    background-color: #d30820;
+    border-color: #ba081d;
+}
+.btn-visit {
+    color: #fff;
+    background-color: #9eb23b;
+    border-color: #9eb23b;
+}
+.btn-visit:hover{
+    color: #fff;
+    background-color: #8a9e23;
+    border-color: #6e8018;
+}
